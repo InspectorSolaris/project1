@@ -172,7 +172,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/expression_out" android:textSize="36sp"
-            android:typeface="normal" android:fontFamily="sans-serif-thin" android:layout_marginBottom="100dp"
+            android:typeface="normal" android:fontFamily="sans-serif-thin" android:layout_marginBottom="90dp"
             app:layout_constraintBottom_toTopOf="@+id/oper_sum"
-            android:layout_marginStart="24dp" app:layout_constraintStart_toStartOf="parent"/>
+            android:layout_marginStart="30dp" app:layout_constraintStart_toStartOf="parent"/>
 </android.support.constraint.ConstraintLayout>

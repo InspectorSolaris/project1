@@ -193,7 +193,7 @@ class MainActivity : AppCompatActivity() {
             var ch : Char = expression[ind++]
             var numb : Int = pickoutNumber(expression.substring(ind))
 
-            ind += numb.toString().length + 1
+            ind += numb.toString().length
 
             when(ch){
                 '+' -> result += numb
