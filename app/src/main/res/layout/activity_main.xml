@@ -7,6 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <Button
+            android:onClick="add0"
             android:text="@string/number_0"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -16,6 +17,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add1"
             android:text="@string/number_1"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -25,6 +27,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add2"
             android:text="@string/number_2"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -34,6 +37,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add3"
             android:text="@string/number_3"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -43,6 +47,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add4"
             android:text="@string/number_4"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -52,6 +57,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add5"
             android:text="@string/number_5"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -61,6 +67,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add6"
             android:text="@string/number_6"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -70,6 +77,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add7"
             android:text="@string/number_7"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -79,6 +87,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add8"
             android:text="@string/number_8"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -88,6 +97,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="add9"
             android:text="@string/number_9"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -97,6 +107,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="deleteExp"
             android:text="@string/oper_C"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -106,6 +117,7 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="countExpression"
             android:text="@string/oper_eq"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -115,8 +127,9 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="operSum"
             android:text="@string/oper_sum"
-            android:layout_width="100dp"
+            android:layout_width="111dp"
             android:layout_height="100dp"
             android:id="@+id/oper_sum" android:background="@color/buttonBackgroundOperPad"
             app:layout_constraintStart_toEndOf="@+id/number_9"
@@ -125,8 +138,9 @@
             android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="operDif"
             android:text="@string/oper_dif"
-            android:layout_width="100dp"
+            android:layout_width="111dp"
             android:layout_height="100dp"
             android:id="@+id/oper_dif" android:background="@color/buttonBackgroundOperPad"
             app:layout_constraintStart_toEndOf="@+id/number_6"
@@ -134,8 +148,9 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="operMul"
             android:text="@string/oper_mul"
-            android:layout_width="100dp"
+            android:layout_width="111dp"
             android:layout_height="100dp"
             android:id="@+id/oper_mul" android:background="@color/buttonBackgroundOperPad"
             app:layout_constraintStart_toEndOf="@+id/number_3"
@@ -143,12 +158,21 @@
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
     <Button
+            android:onClick="operDiv"
             android:text="@string/oper_div"
-            android:layout_width="100dp"
+            android:layout_width="111dp"
             android:layout_height="100dp"
             android:id="@+id/oper_div" android:background="@color/buttonBackgroundOperPad"
             app:layout_constraintStart_toEndOf="@+id/oper_eq"
             app:layout_constraintBottom_toBottomOf="parent" android:textSize="30sp"
             android:textColor="@color/buttonText" android:fontFamily="sans-serif-thin"
             android:typeface="normal"/>
+    <TextView
+            android:text="@string/default_expression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/expression_out" android:textSize="36sp"
+            android:typeface="normal" android:fontFamily="sans-serif-thin" android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toTopOf="@+id/oper_sum"
+            android:layout_marginStart="24dp" app:layout_constraintStart_toStartOf="parent"/>
 </android.support.constraint.ConstraintLayout>

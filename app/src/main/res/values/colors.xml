@@ -2,6 +2,7 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FF0066</color>
     <color name="buttonBackground">#606060</color>
     <color name="buttonBackgroundMainPad">#464646</color>
     <color name="buttonBackgroundOperPad">#666666</color>

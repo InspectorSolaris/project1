@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">project1</string>
+    <string name="app_name">De Best Calculator You Have Ever Seen. Mamoy klyanus</string>
     <string name="number_0">0</string>
     <string name="number_1">1</string>
     <string name="number_2">2</string>
@@ -14,7 +14,8 @@
     <string name="oper_eq">=</string>
     <string name="oper_sum">+</string>
     <string name="oper_dif">-</string>
-    <string name="oper_mul">x</string>
+    <string name="oper_mul">*</string>
     <string name="oper_div">/</string>
+    <string name="default_expression">0</string>
 
 </resources>
